@@ -1,0 +1,216 @@
+#+TITLE: Introduction to Emacs and OrgMode
+#+AUTHOR: T Shrinivasan tshrinivasan@gmail.com
+
+* Emacs - History
+
+
+    - At 1983, Richard Stallman announced Gnu Not Unix(GNU) and General Public License (GPL)
+
+    - He made GCC - a C Compiler
+
+    - Emacs - Text editor
+
+    - Yes. Emacs is 40+ years old
+
+* What is Emacs?
+
+
+    
+    - Almost an Operating System
+    - Text Processor
+    - Ledger for Accounting
+    - Diary
+    - TODO list manager
+    - Notes Manager
+    - Integrated Development Environment
+
+
+* Why emacs?
+
+  
+  
+
+     We do only two things on computer mostly.
+
+     Read Text  & Write Text
+
+     For all our life time.
+
+
+     We need better tool for these.
+
+     "I learned Emacs so I could use a text editor like I’m playing guitar".  
+     Like musical instruments for musicians, text editors are the same tools for developers.
+     - Ayrat Badykov
+
+
+* Features    
+
+
+
+
+
+      No Mouse, All Keyboard
+      
+      Loads of extentions
+      
+      Edit Text, Read mail, Chat, Read RSS, Read webpages.
+      
+      No context Change
+      
+      Same shortcuts for all our life
+      
+      Editor for Lifetime
+     
+      OrgMode - Task Manager in Plain Text
+
+* How to start?
+
+
+
+    - Open Emacs
+    - Open a File
+    - Enter text
+    - Save
+    - Exit
+
+* Some keyboard shortcuts
+
+
+
+** Save
+
+
+
+    Save: C-x C-s
+
+** exit
+ 
+
+
+   exit: C-x C-c
+
+** exit without saving
+
+
+ 
+   exit without saving: C-x C-c
+
+** delete a line
+
+
+ 
+   put cursor on start of the line and C-k
+
+** undo
+
+
+
+   undo : C-x u
+
+** goto bottom
+
+
+
+   goto bottom: ESC >
+
+** goto beginning 
+   
+
+
+   goto beginning: ESC <
+
+** search
+
+
+
+   C-s <search string> 
+
+   repeat the same to goto next word
+
+* Org-Mode
+
+    - c-x c-f demo.org
+
+    - Just save the filename with “.org” extension to get into orgmode by default.
+    
+    - Add * with headings
+    
+    - Add ** and *** and so on for sub headings.
+    
+    - On any task `C-c C-t` to mark as TODO and DONE  ; Shift + ->
+    
+    - Alt+UP/DOWN arrows to move the headings up and down
+
+* clocking
+
+
+
+  In order to clock in to a task, hit `C-c C-x C-i` ,
+
+  and hit `C-c C-x C-o` to clock back out.
+
+* priorities
+
+
+
+  org-mode has three priorities: A, B, and C
+  
+  SHIFT-up arrow
+  
+  SHIFT-downarrow
+
+
+Collapse sub tress
+
+Shift + tab
+* CUT-COPY-PASTE
+
+
+
+  `C–SPC` select region
+
+  Once you have a region selected, the most basic commands are:
+
+  To cut the text, press `C-w`
+
+  To copy the text, press `M-w`
+
+  To paste the text, press `C-y`
+
+
+
+ 
+* Extra
+
+
+
+
+  M-x dired
+ 
+  M-x doctor
+
+  M-x eshell
+
+  ibuffer
+  
+  IRC Chat
+
+  .emacs config file
+
+  spacemacs, Doom emacs, 
+* links
+https://www.slideshare.net/lnxfei/emacs-presentation-41495565
+
+https://goinggnu.wordpress.com/2020/06/16/quick-easy-guide-to-getting-started-with-emacs-editor/
+
+https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html
+
+https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61
+
+https://sachachua.com/blog/2013/05/how-to-learn-emacs-a-hand-drawn-one-pager-for-beginners/
+
+https://sachachua.com/blog/2013/09/how-to-learn-emacs-keyboard-shortcuts-a-visual-tutorial-for-newbies/
+
+Youtube Videos in Indian English - 
+https://www.youtube.com/watch?v=1lyJGnCwq_I&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz
